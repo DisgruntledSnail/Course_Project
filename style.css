@@ -56,8 +56,10 @@ li a:hover {
 }
 
 #aboutimg {
+    background-image: url("./img/about_edit.jpg");
     border: 5px solid #fff67a;
     width: 70%;
+    max-width: 750px;
     height: 750px;
     grid-area: 1 / 1 / 4 / 2;
     margin-left: 15%;
@@ -143,11 +145,12 @@ li a:hover {
 }
 
 #home_div {
-    background-image: url("./img/placeholder_img.png");
-    background-repeat: round;
+    background-image: url("./img/home_edit.jpg");
+    background-repeat: repeat;
     border: #fff67a;
     border-style: solid;
     width: 80%;
+    max-width: 1500px;
     height: 700px;
     display: flex;
     justify-content: center;
