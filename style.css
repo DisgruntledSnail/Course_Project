@@ -100,13 +100,22 @@ li a:hover {
 
 #contact {
     display: grid;
-    grid-template-columns: auto 700px auto;
+    grid-template-columns: auto 700px 50px 700px auto;
     grid-template-rows: 200px 200px 200px 200px;
 }
 
-#contact_info {
+#contact_form {
     grid-column: 2 / span 1;
     grid-row: 1 / span 3;
+}
+
+#contact_info {
+    grid-column: 4 / span 1;
+    grid-row: 1 / span 3;
+}
+
+#contact_page {
+    padding-left: 70px;
 }
 
 #contact_ul {
@@ -119,6 +128,10 @@ li a:hover {
     font-size: x-large;
     font-weight: bolder;
     float: none;
+}
+
+.contact_div {
+    padding-bottom: 20px;
 }
 
 .contact_li {
